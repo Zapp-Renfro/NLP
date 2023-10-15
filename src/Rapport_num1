@@ -1,0 +1,19 @@
+Groupe _ Jimmy NIEV , Theo DALEX
+
+Nous allons développer les feature et choix de modeles que nous avons fais
+
+Nous avons exploité le titre des vidéos comme caractéristique principale pour prédire si une vidéo possède des éléments humoristiques ou non :
+
+Pour cela on fais plusieur étape de feature :
+- 1 : Nous avons utilisé TfidfVectorizer pour convertir les noms des vidéos en vecteurs
+-2 : Nous avond tokenizer pour une meilleur analyse sur les mots
+- 3 : Utiliser FrenchStemmer qui catégorise les mots de la langue française et leur notion
+
+
+Nous avons essayé d'implémenter plusieur modele :
+KNeighborsClassifier() pour essayé de clusteriser les mots pour trouver des cohérence mais cela ne sort pas de bon résultat
+decision_tree qui pour de la classification qui reste meilleur que le précédent
+gradient_boosting Mais il y a un probleme durant l'implémentation que nous devons corriger
+
+En résumé nos feature semple cohérente mais nous devons encore travailler sur un modele solide et adapté pour notre probleme
+Par la suite il faudra renndre le code plus propre avant de passer a l'étape suivante
